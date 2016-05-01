@@ -1,4 +1,5 @@
-require "capistrano/runit/version"
+# frozen_string_literal: true
+require 'capistrano/runit/version'
 
 module Capistrano
   module Runit

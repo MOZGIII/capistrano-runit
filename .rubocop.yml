@@ -1,0 +1,18 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  TargetRubyVersion: 2.3
+  Include:
+    - '**/Rakefile'
+    - '**/*.gemspec'
+Rails:
+  Enabled: true
+Metrics/LineLength:
+  Enabled: false
+Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/ClassCheck:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
