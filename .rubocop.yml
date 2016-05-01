@@ -4,6 +4,7 @@ AllCops:
   Include:
     - '**/Rakefile'
     - '**/*.gemspec'
+    - '**/*.rake'
 Rails:
   Enabled: true
 Metrics/LineLength:
