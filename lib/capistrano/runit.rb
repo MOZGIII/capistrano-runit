@@ -1,8 +1,2 @@
 # frozen_string_literal: true
-require 'capistrano/runit/version'
-
-module Capistrano
-  module Runit
-    # Your code goes here...
-  end
-end
+load File.expand_path('../tasks/runit.rake', __FILE__)
